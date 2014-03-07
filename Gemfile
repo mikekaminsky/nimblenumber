@@ -36,6 +36,12 @@ gem 'rails_serve_static_assets'
 
 gem 'bootstrap-sass', '~> 3.1.1'
 
+group :development do
+  gem 'rails_layout'
+end
+
+
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
