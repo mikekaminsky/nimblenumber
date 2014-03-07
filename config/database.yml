@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: nimblenumber_development
   pool: 5
-  username: nimblenumber
+  username:
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: nimblenumber_test
   pool: 5
-  username: nimblenumber
+  username:
   password:
 
 production:

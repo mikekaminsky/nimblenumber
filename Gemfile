@@ -30,6 +30,12 @@ gem 'jbuilder', '~> 1.2'
 gem 'rails_12factor', group: :production
 
 
+gem 'haml'
+
+gem 'rails_serve_static_assets'
+
+gem 'bootstrap-sass', '~> 3.1.1'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
