@@ -1,3 +1,20 @@
+// add overrides
+//Change any of these to override
+//bootstrap defaults
+/*$gray-darker:             #222;*/
+/*$gray-dark:               #333;*/
+/*$gray:                    #555;*/
+$gray-light:              #0092A1;
+/*$gray-lighter:            #eee;*/
+
+/*$brand-primary:         #428bca !default;*/
+/*$brand-success:         #5cb85c !default;*/
+/*$brand-info:            #5bc0de !default;*/
+/*$brand-warning:         #f0ad4e !default;*/
+/*$brand-danger:          #d9534f !default;*/
+$body-bg:                 #eee;
+
+
 // import the CSS framework
 @import "bootstrap";
 
@@ -36,7 +53,7 @@ main {
   @extend .container;
   background-color: #eee;
   padding-bottom: 80px;
-  width: 100%;
+  width: 85%;
   margin-top: 51px; // accommodate the navbar
   }
 section {
